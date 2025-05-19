@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buổi Tập Luyện</title>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.5/dist/cdn.min.js" defer></script>
-    <style>
-        [x-cloak] { display: none !important; }
-        .exercise-list::-webkit-scrollbar { width: 8px; }
-        .exercise-list::-webkit-scrollbar-track { background: #2d3748; }
-        .exercise-list::-webkit-scrollbar-thumb { background: #4a5568; border-radius: 4px; }
-        .exercise-list::-webkit-scrollbar-thumb:hover { background: #718096; }
-    </style>
-</head>
+@{
+    ViewData["Title"] = "Course Detail - Lesson";
+}
 <body class="bg-gray-900 text-white font-sans antialiased flex flex-col min-h-screen" x-data="workoutSessionData()">
 
     <header class="bg-gray-800 shadow-md p-4 sticky top-0 z-20">
@@ -413,5 +401,3 @@ function workoutSessionData() {
 }
 </script>
 
-</body>
-</html>
